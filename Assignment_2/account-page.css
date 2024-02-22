@@ -1,0 +1,216 @@
+.time1 {
+  width: 54px;
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cellular-connection-icon1,
+.wifi-icon1 {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifi-icon1 {
+  height: 11px;
+  width: 15.3px;
+  min-height: 11px;
+}
+.border1,
+.cap-icon1 {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border1 {
+  height: 100%;
+  width: 90.53%;
+  top: 0;
+  right: 9.47%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+  opacity: 0.35;
+}
+.cap-icon1 {
+  height: 35.4%;
+  width: 5.35%;
+  top: 32.74%;
+  right: 0;
+  bottom: 31.86%;
+  left: 94.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.capacity1 {
+  position: absolute;
+  height: 64.6%;
+  width: 74.07%;
+  top: 17.7%;
+  right: 17.7%;
+  bottom: 17.7%;
+  left: 8.23%;
+  border-radius: 1.33px;
+  background-color: var(--black);
+  z-index: 1;
+}
+.battery1 {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+}
+.i-n-s-t-a-n-c-e-t-i-m-e,
+.i-n-s-t-a-n-c-e-t-i-m-e-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.i-n-s-t-a-n-c-e-t-i-m-e {
+  align-self: stretch;
+  height: 11px;
+  flex-direction: row;
+  gap: 0 7px;
+}
+.i-n-s-t-a-n-c-e-t-i-m-e-wrapper {
+  width: 71px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.bar2,
+.bar3 {
+  display: flex;
+  flex-direction: row;
+}
+.bar3 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.bar2 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--black);
+  font-family: var(--font-sf-pro-text);
+}
+.online-security-icon {
+  height: 401px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.online-security-rectangle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 35px 0;
+}
+.frame-child3 {
+  height: 51px;
+  width: 329px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-cornflowerblue);
+  display: none;
+}
+.sign-up {
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-family: var(--h3);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs)
+    var(--padding-xl);
+  background-color: var(--color-cornflowerblue);
+  flex: 1;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-text-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.frame-child4 {
+  height: 51px;
+  width: 329px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-steelblue);
+  display: none;
+}
+.login {
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: -0.02em;
+  line-height: 30px;
+  font-family: var(--h3);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) 137px var(--padding-3xs) 129px;
+  background-color: var(--color-steelblue);
+  align-self: stretch;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-text {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px 0;
+}
+.account-page,
+.login-group,
+.sign-up-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-group {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xs) 0 var(--padding-base);
+}
+.account-page {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 186px;
+  box-sizing: border-box;
+  gap: 5px 0;
+}
